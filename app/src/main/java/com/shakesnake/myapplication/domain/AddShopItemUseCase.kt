@@ -1,7 +1,7 @@
 package com.shakesnake.myapplication.domain
 
-class AddShopItemUseCase {
-    fun AddShopItem(shopItem: ShopItem) {
-        TODO()
+class AddShopItemUseCase(private val shopListRepository: ShopListRepository) {
+    fun addShopItem(shopItem: ShopItem) {
+        shopListRepository.addShopItem(shopItem)
     }
 }

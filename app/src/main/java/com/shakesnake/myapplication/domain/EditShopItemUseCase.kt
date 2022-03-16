@@ -1,7 +1,7 @@
 package com.shakesnake.myapplication.domain
 
-class EditShopItemUseCase {
+class EditShopItemUseCase(private val shopListRepository: ShopListRepository) {
     fun editShopItem(shopItem: ShopItem) {
-        TODO()
+        shopListRepository.editShopItem(shopItem)
     }
 }
