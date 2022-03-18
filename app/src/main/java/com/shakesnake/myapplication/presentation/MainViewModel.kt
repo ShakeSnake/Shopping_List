@@ -1,7 +1,6 @@
 package com.shakesnake.myapplication.presentation
 
 
-import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.shakesnake.myapplication.data.ShopListRepositoryImpl
 import com.shakesnake.myapplication.domain.EditShopItemUseCase
