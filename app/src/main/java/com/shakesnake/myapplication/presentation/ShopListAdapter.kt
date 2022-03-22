@@ -74,7 +74,7 @@ class ShopListAdapter : RecyclerView.Adapter<ShopListAdapter.ShopItemViewHolder>
         ContextCompat.getColor(
             viewHolder.view.context,
             android.R.color.white
-        )
+             )
         )
     }
 
