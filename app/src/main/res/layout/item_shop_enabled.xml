@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:padding="16dp"
-        android:background="@color/disabled_shop_item_yellow_500">
+        android:background="@color/enabled_shop_item_yellow_500">
 
         <TextView
             android:id="@+id/tv_name"
